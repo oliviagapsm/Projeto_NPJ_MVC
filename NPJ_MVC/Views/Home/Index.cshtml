@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Página Principal";
+}
+
+<div id="box1" class="container d-flex justify-content-center">
+
+    <div class="card d-flex align-items-center rounded" style="margin-top: 100px;">
+        <h8> Seja bem-vindo! </h8>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 200px;" />
+        <br />
+        <img src="~/img/imgHome.png" class="card-img-top img-fluid rounded">
+    </div>
+
+</div>
+
+
+
+
+    <script src="~/Scripts/moment.js" type="text/javascript"></script>
+    <script src="~/Scripts/shards.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/bootstrap-datepicker.pt-BR.min.js" charset="utf-8" type="text/javascript"></script>
+    <script type="text/javascript">$("#dataInicio").removeAttr("data-val-date");
+        $("#dataFim").removeAttr("data-val-date");
+        $('#agendarExameDatePicker').datepicker({
+            weekStart: 0,
+            maxViewMode: 2,
+            todayBtn: "linked",
+            language: "pt-BR",
+            multidate: false,
+            autoclose: true,
+            todayHighlight: true,
+        });</script>

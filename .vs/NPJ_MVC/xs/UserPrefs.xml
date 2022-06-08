@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{1A95F7D0-7861-4ECF-994B-8FF7C7A2B423}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="NPJ_MVC/Views/Login/IndexLogin.cshtml">
+    <Files>
+      <File FileName="NPJ_MVC/Views/Cadastro/Criar.cshtml" Line="22" Column="103" />
+      <File FileName="NPJ_MVC/Views/Shared/_Layout.cshtml" Line="38" Column="121" />
+      <File FileName="NPJ_MVC/wwwroot/css/site.css" Line="38" Column="1" />
+      <File FileName="NPJ_MVC/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="NPJ_MVC/Views/Shared/_Layout.cshtml.css" Line="52" Column="1" />
+      <File FileName="NPJ_MVC/Views/Login/IndexLogin.cshtml" Line="43" Column="98" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NPJ_MVC" expanded="True">
+            <Node name="NPJ_MVC" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Repositorios" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Cadastro" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Login" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="img" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NPJ__MVC PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

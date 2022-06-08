@@ -1,0 +1,50 @@
+﻿
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="box1" class="container rounded d-flex justify-content-center">
+
+    <div class="card d-flex align-items-center" style="margin-top: 100px;">
+        <img src="~/img/fotoLogin.png" class="card-img-top img-fluid ">
+        <div class="card-body">
+            <h4 class="card-title d-flex justify-content-center">Identifique-se</h4>
+
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+                    </div>
+                    <input class="form-control text-box single-line" data-val="true" data-val-required="Por favor, informe o seu CPF." id="cpf" maxlength="14" minlength="14" name="cpf" onkeyup="mascara('###.###.###-##',this,event,true)" placeholder="CPF" type="text" value="">
+                </div>
+                <span class="field-validation-valid text-danger" data-valmsg-for="cpf" data-valmsg-replace="true"></span>
+            </div>
+
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+                    </div>
+                    <input class="form-control text-box single-line password" data-val="true" data-val-required="Por favor, digite sua senha." id="myPass" name="senha" placeholder="******" type="text">
+                </div>
+                <span class="field-validation-valid text-danger" data-valmsg-for="senha" data-valmsg-replace="true"></span>
+                <center><a href="../Login/EsqueceuSenha"><small>Esqueceu a senha?</small></a></center>
+            </div>
+            <!--Mostrar Senha-->
+            <div class="custom-control custom-toggle my-2">
+                <input type="checkbox" id="customToggle1" name="customToggle1" class="custom-control-input" onclick="myFunction()">
+                <label class="custom-control-label" for="customToggle1">Mostrar senha</label>
+            </div>
+            <!--Mostrar Senha-->
+
+            <br>
+            <div class="text-center">
+                <button type="submit" class="btn" href="./cadastro.html">Primeiro Acesso</button>
+                <button id="login" type="submit" class="btn">Login</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+  
